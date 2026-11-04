@@ -1,0 +1,147 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: NickG Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      icon: house
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./home
+    - type: section
+      key: section-2
+      title: Changelog
+      path: changelog
+      icon: clock-rotate-left
+      children:
+        - type: space
+          key: space-2
+          title: Changelog
+          path: changelog
+          default: true
+          content:
+            directory: ./changelog
+    - type: section-group
+      key: section-group-1
+      title: IREC
+      draft: true
+      children:
+        - type: section
+          key: section-5
+          title: International Shipping
+          path: international-shipping
+          description: ""
+          icon: box-isometric-tape
+          children:
+            - type: space
+              key: space-5
+              title: International Shipping
+              path: untitled
+              default: true
+              draft: true
+              content:
+                directory: ./international-shipping/untitled
+        - type: section
+          key: section-9
+          title: General and Timeline
+          path: general-and-timeline
+          icon: chart-gantt
+          children:
+            - type: space
+              key: space-9
+              title: General and Timeline
+              path: untitled
+              default: true
+              draft: true
+              content:
+                directory: ./general-and-timeline/untitled
+    - type: section-group
+      key: section-group-2
+      title: General Planning
+      icon: table-cells-header-lock
+      draft: true
+      children:
+        - type: section
+          key: section-3
+          title: Landing Page
+          path: landing-page
+          children:
+            - type: space
+              key: space-3
+              title: Landing Page
+              path: landing-page
+              default: true
+              draft: true
+              content:
+                directory: ./landing-page
+        - type: section
+          key: section-4
+          title: Mulalley Planning
+          path: mulalley-planning
+          icon: rocket-launch
+          children:
+            - type: space
+              key: space-4
+              title: Mulalley Planning
+              path: untitled
+              default: true
+              draft: true
+              content:
+                directory: ./mulalley-planning/untitled
+        - type: section
+          key: section-6
+          title: Conduct
+          path: conduct
+          description: ""
+          icon: horse-head
+          children:
+            - type: space
+              key: space-6
+              title: Conduct
+              path: untitled
+              default: true
+              draft: true
+              content:
+                directory: ./conduct/untitled
+        - type: section
+          key: section-7
+          title: Whalan Planning
+          path: whalan-planning
+          description: ""
+          icon: bench-tree
+          children:
+            - type: space
+              key: space-7
+              title: Whalan Planning
+              path: untitled
+              default: true
+              draft: true
+              content:
+                directory: ./whalan-planning/untitled
+        - type: section
+          key: section-8
+          title: Cars - Booking and Planning
+          path: cars-booking-and-planning
+          icon: car
+          children:
+            - type: space
+              key: space-8
+              title: Cars - Booking and Planning
+              path: untitled
+              default: true
+              draft: true
+              content:
+                directory: ./cars-booking-and-planning/untitled
+    - type: section-group
+      key: section-group-3
+      title: AURC
+      draft: true
+      children: []
